@@ -8,7 +8,8 @@ def main():
     # mask_img_path = Path(mask_image_dir).rglob('*.png').__next__()
     # mask_img_path = Path('/fs/scratch/PAS2684/yoohj0416/data-archive/2018-NEON-beetles/group_images_masks/A00000033572_mask.png')
     # mask_img_path = Path('/fs/scratch/PAS2684/yoohj0416/data-archive/2018-NEON-beetles/group_images_masks/A00000033623_mask.png')
-    mask_img_path = Path('/fs/scratch/PAS2684/yoohj0416/data-archive/2018-NEON-beetles/group_images_masks/A00000008916_mask.png')
+    # mask_img_path = Path('/fs/scratch/PAS2684/yoohj0416/data-archive/2018-NEON-beetles/group_images_masks/A00000008916_mask.png')
+    mask_img_path = Path('/fs/scratch/PAS2684/yoohj0416/data-archive/2018-NEON-beetles/group_images_masks/A00000012429_mask.png')
     # Read the image as binary
     mask_img = cv2.imread(str(mask_img_path), cv2.IMREAD_GRAYSCALE)
 
