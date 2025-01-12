@@ -1,1 +1,1 @@
-This is a private repository for beetle elytra coordinates prediction.
+This is a official repository for beetle elytra coordinates prediction.
