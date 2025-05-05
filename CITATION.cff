@@ -1,0 +1,44 @@
+abstract: "Beetles represent nearly a quarter of all known animal species and play crucial roles in ecosystems. A keymorphological feature, the elytra, provides essential protection and adaptability but measuring their size man-ually is labor-intensive and prone to errors, especially with large datasets containing multiple specimens perimage. To address this, we introduce a deep learning-based framework that automates the detection and mea-surement of beetle elytra using Convolutional Neural Networks (CNN). Our system integrates advanced objectdetection techniques to accurately localize individual beetles and predict elytra coordinates, enabling precisemeasurement of elytra length and width. Additionally, we recreated an existing beetle dataset tailored forelytra coordinate prediction. Through comprehensive experiments and ablation studies, we optimized ourframework to achieve a measurement accuracy with an error margin of only 0.1 cm. This automated approachsigniﬁcantly reduces manual effort and facilitates large-scale beetle trait analysis, thereby advancing biodiver-sity research and ecological assessments. Code is available at https://github.com/yoohj0416/predictbeetle."
+authors:
+- family-names: Yoo
+  given-names: Hojin
+  orcid: "https://orcid.org/0000-0002-4291-0745"
+- family-names: Somasundaram
+  given-names: Dhanyapriya
+  orcid: "https://orcid.org/0009-0000-7606-4623"
+- family-names: Oh
+  given-names: Hyunju
+  orcid: "https://orcid.org/0009-0006-8600-1208"
+cff-version: 1.2.0
+date-released: "2025-02-26"
+keywords:
+  - Beetle Elytra, Convolutional Neural Networks, Object Detection, Regression Models
+license: 
+message: "If you find this software helpful in your research, please cite both the software and our paper."
+repository-code: "https://github.com/Imageomics/<repo>"
+title: "Efﬁcient CNN-Based System for Automated Beetle Elytra CoordinatesPrediction"
+version: 1.0.0
+doi: 10.5220/0013264600003912
+type: software
+preferred-citation:
+  type: article
+  authors:
+    - family-names:
+      given-names:
+    - family-names:
+      given-names:
+  title: 
+  year:
+  journal:
+  doi: 
+references:
+  - authors:
+      - family-names:
+        given-names:
+      - family-names:
+        given-names:
+    title: 
+    version:
+    type:
+    doi: 
+    date-released:
