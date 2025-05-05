@@ -93,6 +93,32 @@ python predict.py --config /path/to/config/file
 
 ## 4. Citation
 ### BibTeX:
+```
+@inproceedings{Yoo2025EfficientCNN,
+  author    = {Yoo, H. and Somasundaram, D. and Oh, H.},
+  title     = {{Efficient CNN-Based System for Automated Beetle Elytra Coordinates Prediction}},
+  booktitle = {Proceedings of the 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications ({VISIGRAPP} 2025) - Volume 2: {VISAPP}},
+  pages     = {934--941},
+  year      = {2025},
+  publisher = {{SCITEPRESS – Science and Technology Publications, Lda.}},
+  doi       = {10.5220/0013264600003912},
+  isbn      = {978-989-758-728-3},
+  issn      = {2184-4321},
+  series    = {{VISIGRAPP} 2025}
+}
+```
+
+### Original Dataset:
+```
+@misc{Fluck2018_NEON_Beetle,
+  author = {Isadora E. Fluck and Benjamin Baiser and Riley Wolcheski and Isha Chinniah and Sydne Record},
+  title = {2018 {NEON} Ethanol-preserved Ground Beetles (Revision 7b3731d)},
+  year = {2024},
+  url = {https://huggingface.co/datasets/imageomics/2018-NEON-beetles},
+  doi = { 10.57967/hf/5252 },
+  publisher = {Hugging Face}
+}
+```
 
 ## 5. Acknowledgements
 This work was supported by the NSF OAC 2118240 Imageomics Institute award and was initiated at Beetlepalooza 2024. More details about Beetlepalooza can be found on https://github.com/Imageomics/BeetlePalooza-2024.
