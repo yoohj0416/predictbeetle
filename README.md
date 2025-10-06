@@ -120,5 +120,28 @@ python predict.py --config /path/to/config/file
 }
 ```
 
+Specimens:
+```bibtex
+@misc{Portal2022-ho,
+  title     = "{NEON} biorepository Carabid collection (trap sorting)",
+  author    = "Portal, Neon Biorepository",
+  publisher = "National Ecological Observatory Network",
+  doi = {https://doi.org/10.15468/mjtykf},
+  note = {Accessed in 2022}
+}
+```
+
+```bibtex
+@misc{Portal2022-qu,
+  title     = "{NEON} Biorepository Carabid Collection (Archive Pooling)",
+  author    = "Portal, Neon Biorepository",
+  publisher = "National Ecological Observatory Network",
+  doi = {https://doi.org/10.15468/xicbza},
+  note = {Accessed in 2022}
+}
+```
+
 ## 5. Acknowledgements
 This work was supported by the NSF OAC 2118240 Imageomics Institute award and was initiated at Beetlepalooza 2024. More details about Beetlepalooza can be found on https://github.com/Imageomics/BeetlePalooza-2024.
+
+This material is based in part upon work supported by the [U.S. National Ecological Observatory Network (NEON)](https://www.neonscience.org/), a program sponsored by the [U.S. National Science Foundation (NSF)](https://www.nsf.gov/) and operated under cooperative agreement by [Battelle](https://www.battelle.org/). Furthermore, this material uses specimens and/or samples collected as part of the NEON Program.
