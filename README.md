@@ -93,7 +93,7 @@ python predict.py --config /path/to/config/file
 
 ## 4. Citation
 ### BibTeX:
-```
+```bibtex
 @inproceedings{Yoo2025EfficientCNN,
   author    = {Yoo, H. and Somasundaram, D. and Oh, H.},
   title     = {{Efficient CNN-Based System for Automated Beetle Elytra Coordinates Prediction}},
@@ -109,7 +109,7 @@ python predict.py --config /path/to/config/file
 ```
 
 ### Original Dataset:
-```
+```bibtex
 @misc{Fluck2018_NEON_Beetle,
   author = {Isadora E. Fluck and Benjamin Baiser and Riley Wolcheski and Isha Chinniah and Sydne Record},
   title = {2018 {NEON} Ethanol-preserved Ground Beetles (Revision 7b3731d)},
