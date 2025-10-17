@@ -120,5 +120,49 @@ python predict.py --config /path/to/config/file
 }
 ```
 
+### Specimens:
+```bibtex
+@misc{Portal2022-ho,
+  title     = "{NEON} biorepository Carabid collection (trap sorting)",
+  author    = "Portal, Neon Biorepository",
+  abstract  = "This collection contains subsamples of Carabid adults from pitfall sampling from a single trap (NEON sample class:
+               bet\_sorting\_in.subsampleID.bet). Ground beetles are sampled using pitfall traps (16 oz deli containers filled with 150 or
+               250 mL of propylene glycol). Four (pre-2018) or 3 (2018 and beyond) traps are deployed in each of 10 (pre-2023) or 6 (2023
+               and beyond) plots at each terrestrial NEON site, with traps arrayed approximately 20 meters from the center of the plot.
+               Sampling occurs biweekly throughout the growing season (when temperatures are above 4 degrees C). Following trap collection,
+               all beetles from the family Carabidae are sorted by NEON technicians and identified to species or morphospecies. A subset
+               of collected Carabidae are pointed or pinned, while other specimens (non-pinned/non-pointed carabids, invertebrate
+               bycatch, and vertebrate bycatch) are stored in 95\% ethanol for archiving. Regardless of storage method, all collections data
+               are reported at a per trap resolution. A subset of pinned ground beetles (up to 467 per site per year) are sent to an expert
+               taxonomist for secondary identification. Identifications performed on these individuals may be used to estimate
+               uncertainty in parataxonomist identification by NEON technicians.",
+  publisher = "National Ecological Observatory Network",
+  doi = {https://doi.org/10.15468/mjtykf},
+  note = {Accessed in 2022}
+}
+```
+
+```bibtex
+@misc{Portal2022-qu,
+  title     = "{NEON} Biorepository Carabid Collection (Archive Pooling)",
+  author    = "Portal, Neon Biorepository",
+  abstract  = "This collection contains subsamples of Carabid adults from pitfall sampling and pooled across multiple traps within a plot
+               (NEON sample class: bet\_archivepooling\_in.subsampleID.bet). Ground beetles are sampled using pitfall traps (16 oz deli
+               containers filled with 150 or 250 mL of propylene glycol). Four (pre-2018) or 3 (2018 and beyond) traps are deployed in each of
+               10 (pre-2023) or 6 (2023 and beyond) plots at each terrestrial NEON site, with traps arrayed approximately 20 meters from the
+               center of the plot. Sampling occurs biweekly throughout the growing season (when temperatures are above 4 degrees C).
+               Following trap collection, all beetles from the family Carabidae are sorted by NEON technicians and identified to species or
+               morphospecies. A subset of collected Carabidae are pointed or pinned, while other specimens (non-pinned/non-pointed carabids,
+               invertebrate bycatch, and vertebrate bycatch) are stored in 95\% ethanol for archiving. A subset of pinned ground beetles (up to
+               467 per site per year) are sent to an expert taxonomist for secondary identification. Identifications performed on these
+               individuals may be used to estimate uncertainty in parataxonomist identification by NEON technicians.",
+  publisher = "National Ecological Observatory Network",
+  doi = {https://doi.org/10.15468/xicbza},
+  note = {Accessed in 2022}
+}
+```
+
 ## 5. Acknowledgements
 This work was supported by the NSF OAC 2118240 Imageomics Institute award and was initiated at Beetlepalooza 2024. More details about Beetlepalooza can be found on https://github.com/Imageomics/BeetlePalooza-2024.
+
+This material is based in part upon work supported by the [U.S. National Ecological Observatory Network (NEON)](https://www.neonscience.org/), a program sponsored by the [U.S. National Science Foundation (NSF)](https://www.nsf.gov/) and operated under cooperative agreement by [Battelle](https://www.battelle.org/). Furthermore, this material uses specimens and/or samples collected as part of the NEON Program.
