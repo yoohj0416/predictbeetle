@@ -31,33 +31,36 @@ It is **re-created** from the original beetle dataset found here: \
 
 ## 3. Pre-trained Models
 We provide two sets of pre-trained models:
-
+ 
 1. Object Detection Models (YOLO)
 2. Regression Models (for beetle elytra coordinates)
-
 ## 3.1. Object Detection (YOLO)
-
+ 
 Below is a summary of **YOLOv8** models we trained (or fine-tuned) for beetle detection, along with their AP50 and mAP on our test set.
-
-| Model | AP50 | mAP | Download Link |
-| ----- | ---- | --- | ------------- |
-|YOLOv8n|0.968|0.800|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/EaK46wLT91JLn-P7lQ3_zqABtVOC0jDQojpQvxPZwus97A?e=g0zsUz)|
-|YOLOv8s|0.970|**0.805**|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/ERKTdw2_b7xMsefdVtUqNKEBs4Rit7-QguYgCTaGYG9YAA?e=3uZVG2)|
-|YOLOv8m|**0.971**|0.804|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/EdQQwiRiQHNAkBhRMLlH5xMBe5rbv6M00l5hi-6PVABI0w?e=e0V9ge)|
-
+ 
+| Model | AP50 | mAP |
+| ----- | ---- | --- |
+|YOLOv8n|0.968|0.800|
+|YOLOv8s|0.970|**0.805**|
+|YOLOv8m|**0.971**|0.804|
+ 
+Pre-trained weights are available on **Hugging Face**: [https://huggingface.co/yoohj0416/predictbeetle](https://huggingface.co/yoohj0416/predictbeetle)
+ 
 For additional details on how to install and run YOLOv8, please refer to the official [Ultralytics YOLOv8 documentation](https://docs.ultralytics.com/quickstart/).
-
+ 
 ## 3.2 Regression Models
-
-Below is a summary table for our **Regression Models** using various backbones. Each row includes a download link and its corresponding Mean Squared Error (MSE) and Points Defference performances on our test set.
-
-| Backbone | MSE | Points Difference (cm) | Params | Download Link |
-| -------- | --- | ---------------------- | ------ | ------------- |
-|ResNet50|1.941E-03|0.128|23.5M|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/ERFLdPMjX35AqUcCP2XSfkMBmWsqnImLn05twt4jiYx8IA?e=vUsVck)|
-|ResNet101|1.971E-03|0.132|42.5M|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/EasL9EdBxl5BiK6vNpQXGS0BFuqjDbtlGiloebnPhNx3fQ?e=1vcIyZ)|
-|MobileNetV3-Large|1.952E-03|0.118|4.2M|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/EeVJyRKNPKhOuTmILIpmFNoBOxRiCnNz9kz9FkjWK6a5zw?e=ubxvGK)|
-|EfficientNetV2-S|1.870E-03|**0.110**|20.2M|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/EUsNtMTUMc5OsaeoPT3FvHgBYiDhMWVefzLbcMTJErJApg?e=Jc3h6l)|
-|EfficientNetV2-M|**1.756E-03**|**0.110**|52.9M|[Download](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/yoo_515_buckeyemail_osu_edu/ERKpN7vb4iBCpOSv19ZxFOkBuYTNMCu4SqUp0SDyVCEgJw?e=ffsiIG)|
+ 
+Below is a summary table for our **Regression Models** using various backbones. Each row includes its corresponding Mean Squared Error (MSE) and Points Difference performances on our test set.
+ 
+| Backbone | MSE | Points Difference (cm) | Params |
+| -------- | --- | ---------------------- | ------ |
+|ResNet50|1.941E-03|0.128|23.5M|
+|ResNet101|1.971E-03|0.132|42.5M|
+|MobileNetV3-Large|1.952E-03|0.118|4.2M|
+|EfficientNetV2-S|1.870E-03|**0.110**|20.2M|
+|EfficientNetV2-M|**1.756E-03**|**0.110**|52.9M|
+ 
+Pre-trained weights are available on **Hugging Face**: [https://huggingface.co/yoohj0416/predictbeetle](https://huggingface.co/yoohj0416/predictbeetle)
 
 ## 4. Train & Test
 ### A. Update the Config File
