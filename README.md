@@ -145,6 +145,8 @@ python predict.py --config /path/to/config/file
 ```
 
 ## 5. Acknowledgements
-This work was supported by the NSF OAC 2118240 Imageomics Institute award and was initiated at Beetlepalooza 2024. More details about Beetlepalooza can be found on https://github.com/Imageomics/BeetlePalooza-2024. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+This work was supported by the NSF OAC 2118240 Imageomics Institute award and was initiated at Beetlepalooza 2024. More details about Beetlepalooza can be found on https://github.com/Imageomics/BeetlePalooza-2024.
 
 This material is based in part upon work supported by the [U.S. National Ecological Observatory Network (NEON)](https://www.neonscience.org/), a program sponsored by the [U.S. National Science Foundation (NSF)](https://www.nsf.gov/) and operated under cooperative agreement by [Battelle](https://www.battelle.org/). Furthermore, this material uses specimens and/or samples collected as part of the NEON Program.
+
+Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
