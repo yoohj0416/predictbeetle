@@ -1,4 +1,4 @@
-abstract: "Beetles represent nearly a quarter of all known animal species and play crucial roles in ecosystems. A keymorphological feature, the elytra, provides essential protection and adaptability but measuring their size man-ually is labor-intensive and prone to errors, especially with large datasets containing multiple specimens perimage. To address this, we introduce a deep learning-based framework that automates the detection and mea-surement of beetle elytra using Convolutional Neural Networks (CNN). Our system integrates advanced objectdetection techniques to accurately localize individual beetles and predict elytra coordinates, enabling precisemeasurement of elytra length and width. Additionally, we recreated an existing beetle dataset tailored forelytra coordinate prediction. Through comprehensive experiments and ablation studies, we optimized ourframework to achieve a measurement accuracy with an error margin of only 0.1 cm. This automated approachsigniﬁcantly reduces manual effort and facilitates large-scale beetle trait analysis, thereby advancing biodiver-sity research and ecological assessments. Code is available at https://github.com/yoohj0416/predictbeetle."
+abstract: "A deep learning-based framework that automates the detection and measurement of beetle elytra using Convolutional Neural Networks (CNN). The system integrates object detection (YOLOv8) to localize individual beetles and regression models (ResNet, MobileNet, EfficientNet) to predict elytra coordinates, enabling precise measurement of elytra length and width with an error margin of only 0.1 cm."
 authors:
 - family-names: Yoo
   given-names: Hojin
@@ -11,34 +11,40 @@ authors:
   orcid: "https://orcid.org/0009-0006-8600-1208"
 cff-version: 1.2.0
 date-released: "2025-02-26"
+identifiers:
+  - description: "The GitHub release URL of tag v1.0.0."
+    type: url
+    value: "https://github.com/yoohj0416/predictbeetle/releases/tag/v1.0.0"
+  - description: "The GitHub URL of the commit tagged with v1.0.0."
+    type: url
+    value: "https://github.com/yoohj0416/predictbeetle/tree/<commit-hash>"
 keywords:
-  - Beetle Elytra, Convolutional Neural Networks, Object Detection, Regression Models
-license: 
+  - imageomics
+  - beetle
+  - elytra
+  - object-detection
+  - keypoint-regression
+  - convolutional-neural-networks
+  - morphology
+  - ecology
+license: CC-BY-SA-4.0
 message: "If you find this software helpful in your research, please cite both the software and our paper."
-repository-code: "https://github.com/Imageomics/<repo>"
-title: "Efﬁcient CNN-Based System for Automated Beetle Elytra CoordinatesPrediction"
+repository-code: "https://github.com/yoohj0416/predictbeetle"
+title: "Efficient CNN-Based System for Automated Beetle Elytra Coordinates Prediction"
 version: 1.0.0
-doi: 10.5220/0013264600003912
+# doi: <Zenodo DOI - add after creating Zenodo record>
 type: software
 preferred-citation:
-  type: article
+  type: conference-paper
   authors:
-    - family-names:
-      given-names:
-    - family-names:
-      given-names:
-  title: 
-  year:
-  journal:
-  doi: 
-references:
-  - authors:
-      - family-names:
-        given-names:
-      - family-names:
-        given-names:
-    title: 
-    version:
-    type:
-    doi: 
-    date-released:
+    - family-names: Yoo
+      given-names: Hojin
+    - family-names: Somasundaram
+      given-names: Dhanyapriya
+    - family-names: Oh
+      given-names: Hyunju
+  title: "Efficient CNN-Based System for Automated Beetle Elytra Coordinates Prediction"
+  year: 2025
+  conference:
+    name: "20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP 2025)"
+  doi: 10.5220/0013264600003912
