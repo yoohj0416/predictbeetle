@@ -27,7 +27,7 @@ keywords:
   - convolutional-neural-networks
   - morphology
   - ecology
-license: CC-BY-SA-4.0
+license: CC0-1.0
 message: "If you find this software helpful in your research, please cite both the software and our paper."
 repository-code: "https://github.com/yoohj0416/predictbeetle"
 title: "Efficient CNN-Based System for Automated Beetle Elytra Coordinates Prediction"
